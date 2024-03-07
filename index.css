@@ -1,0 +1,100 @@
+body {
+    width: 210mm; /* or width: 8.27in; */
+    height: 297mm; /* or height: 11.69in; */
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    
+}
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.maintop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top p{
+   margin-top: -15px;
+   margin-left: -48px;
+}
+.top i{
+    padding-right: 3px;
+    color: grey;
+}
+.top p span{
+    padding-left: 5px;
+}
+/* ----------------------------------------- */
+.objective{
+    margin-top: -10px;
+}
+.objective hr{
+    margin-top: -8px;
+    color: black;
+}
+.objective p{
+    margin-top: -5px;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.education hr{
+    margin-top: -8px;
+    color: black;
+}
+.education span{
+    font-weight: bold;
+}
+.education p{
+    margin-top: -5px;
+
+}
+.cgpa{
+    margin-top: -15px;
+}
+/* ------------------------------------- */
+
+.skills hr{
+    margin-top: -8px;
+    color: black;
+}
+.skills p{
+    margin-top: -5px;
+    font-weight: bold;
+
+}
+.skills span{
+    margin-top: -5px;
+    font-weight: lighter;
+   
+
+}
+.frame{
+    margin-left: 45px;
+}
+.skills .span{
+    margin-left: 20px;
+}
+.skills .soft{
+    margin-left: 125px;
+    margin-top: -40px;
+    text-align: justify;
+}
+/* ----------------------- */
+.experience hr{
+    margin-top: -8px;
+    color: black;
+}
+.experience .job{
+    margin-top: -5px;
+    font-weight: bold;
+}
+.company{
+    margin-top: -15px;
+}
+.experience li{
+    text-align: justify;
+}
