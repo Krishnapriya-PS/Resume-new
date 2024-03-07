@@ -1,14 +1,18 @@
+@page{
+    size: A4;
+    margin: 0;}
 body {
-    width: 210mm; /* or width: 8.27in; */
-    height: 297mm; /* or height: 11.69in; */
+    /* width: 210mm; 
+    height: 297mm;  */
     margin: 0;
     padding: 0;
     /* border: 1px solid black; */
-    
+    /* height: 100%; */
 }
 .container{
     font-family: 'Times New Roman', Times, serif;
     color: black;
+
 }
 .maintop{
     display: flex;
